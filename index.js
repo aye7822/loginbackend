@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const User = require('./models/user'); // Ensure this model is exported correctly
+const User = require('./models/User'); // Ensure this model is exported correctly
 const jwt = require('jsonwebtoken');
 const bcrypt=require('bcrypt')
 const cors =require('cors')
